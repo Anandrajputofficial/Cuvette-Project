@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.head-area{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1rem 10rem;
+}
+.head-area li{
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    list-style: none;
+    cursor: pointer;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #FFCD9E;
+    width: 100%;
+    height: 450px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+#heading-content{
+justify-content: space-around;
+margin-top: 10px;
+}
+
+.heading-content h1{
+    font-family: "Poppins", sans-serif;
+    font-size: 36px;
+font-weight: 700;
+line-height: 54px;
+text-align: left;
+
+}
+
+.heading-content p{
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+font-size: 20px;
+line-height: 32px;
+text-align: left;
+color: #484848;
+padding: 10px 0;
+}
+
+.heading-content h4{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+line-height: 42px;
+padding: 10px 0;
+text-align: left;
+color: #282828;
+
+}
+
+.heading-section img{
+    height: 505px;
+    width: 505px;
+}
+
+.heading-section img:hover{
+    transition-duration: 4s ;
+    height: 555px;
+    width: 555px;    
+    cursor: pointer;
+}
+
+.heading-content input{
+    margin-right: 10px;
+    border: 3px solid black;
+    font-size: 1rem;
+    padding-left: 5px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    color: #888888;
+    border-radius: 8px;
+    width: 250px;
+    height: 40px;
+    background-color: #ffffff;
+}
+
+.heading-content button{
+    font-size: 1rem;
+    font-weight: 500;
+    width: 200px;
+    height: 45px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+}
+
+.heading-content button:hover{
+    background-color: red;
+    cursor: pointer;
+    font-size: 1.2rem;
+
+}
+
+/* footer-section */
+
+.footer-section{
+    background-color: #282828;
+    height: 189px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 12rem;
+}
+
+.footer-area p{
+    font-size: 17px;
+    line-height: 32px;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;   
+     color: #ffffff;
+}
+
+
+
+#footer-area{
+    text-align: right;
+}
+
+#footer-area p:last-of-type{
+ padding-top: 15px;
+}
